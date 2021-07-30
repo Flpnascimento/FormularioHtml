@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Cadastro Cliente</h1>
+        <p id="titulo">Complete com as Informações do Cliente:</p>
+    </div>
+    <div>
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label>Id do Cliente</label>
+                    <input type="hidden">
+                </div>
+                <div class="campo">
+                    <label for="nome"> <strong>Nome do Cliente</strong> </label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="rg" > <strong>RG</strong> </label>
+                    <input type="text" name="rg" id="rg" required>
+                </div>
+                <div class="campo">
+                    <label for="cpf"> <strong>CPF</strong></label>
+                    <input type="text" name="cpf" id="cpf" required>
+                </div>
+                <div class="campo">
+                    <label for="endereco"><strong>Endereço</strong> </label>
+                    <input type="text" name="endereco" id="endereco">
+                </div>
+                <div>
+                    <label for="produto"><strong>Produto</strong> </label>
+                    <input type="text" name="produto" id="produto">
+                </div>
+                <div class="campo">
+                    <label for="preco"><strong>Preço de Venda</strong></label>
+                    <input type="number" name="preco" id="preco">
+                </div>
+            </fieldset>
+            <button type="submit"><strong>Salvar</strong></button>
+        </form>
+    </div>
+</body>
+</html>
